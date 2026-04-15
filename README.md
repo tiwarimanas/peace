@@ -3,17 +3,20 @@
 
 PEACE is a completely browser-based, lightweight AI chat interface designed to bring advanced capabilities—like "forced thinking" and Claude-like "skills"—to smaller, natively incapable AI models.
 
+**⚠️ Important Note: PEACE is a "Bring Your Own Key" (BYOK) application. You must have a free Gemini API key to use the app. You will be prompted to enter it the moment you open the app.**
+
 ## ✨ Features
+* **🔑 Bring Your Own Key:** Total control over your usage. PEACE requires you to enter your own Gemini API key to function, ensuring you aren't reliant on third-party rate limits.
+* **🛡️ 100% Local & Private (Zero Server):** There is absolutely no backend server. Your API keys, chat history, generated plans, and custom skills **never leave your computer**. Everything is processed via direct API calls and saved purely in your browser's local storage.
 * **🧠 Forced Thinking Routing:** Forces small models (like `gemini-2.5-flash-lite`) to analyze prompts, generate step-by-step plans, and feed them back to themselves to generate highly logical final responses.
 * **🛠️ Custom "Skills":** Create custom AI personas tailored for highly specific tasks, similar to Claude's Projects.
-* **📊 Inline Diagrams & Rich Media:** The AI can generate inline diagrams directly in the chat and supports GIF integration (requires your own Giphy API key).
-* **🔒 100% Local & Private:** No backend databases. All your chat history, custom skills, and API keys are stored purely and securely in your browser's `localStorage`.
+* **📊 Inline Diagrams & Rich Media:** The AI can generate inline diagrams directly in the chat and supports GIF integration (requires a Giphy API key).
 
 ## 🚀 Getting Started
-Because PEACE is currently running entirely in the browser, testing it is incredibly simple:
+Because PEACE runs entirely on your local machine within the browser, setup is instantaneous:
 1. Clone the repository: `git clone https://github.com/tiwarimanas/peace.git`
 2. Open the `index.html` file directly in your web browser.
-3. Enter your Gemini API key in the settings panel.
+3. **Enter your Gemini API key** when the app prompts you on the startup screen.
 4. Start chatting!
 
 ## 🤝 Contributing & The "Single File" Problem
